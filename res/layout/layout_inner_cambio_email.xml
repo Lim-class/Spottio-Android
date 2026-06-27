@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Per motivi di sicurezza, inserisci la tua password attuale prima di inserire la nuova email."
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/emailCurrentPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password Attuale"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/newEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuovo Indirizzo Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnUpdateEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aggiorna Email"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0B3C5D"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="end"/>
+</LinearLayout>

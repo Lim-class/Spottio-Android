@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">사용자 이름</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="hint_email">이메일</string>
+    <string name="forgot_password">비밀번호를 잊으셨나요?</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_register">가입하기</string>
+    <string name="switch_to_register">계정이 없으신가요? 가입하기</string>
+    <string name="switch_to_login">이미 계정이 있으신가요? 로그인</string>
+
+    <string name="dialog_reset_title">비밀번호 찾기</string>
+    <string name="dialog_reset_msg">재설정 링크를 받으려면 이메일이나 사용자 이름을 입력하세요.</string>
+    <string name="btn_send">보내기</string>
+    <string name="btn_cancel">취소</string>
+
+    <string name="btn_storia">연혁</string>
+    <string name="btn_policy">정책</string>
+    <string name="btn_privacy">개인정보</string>
+
+    <string name="cb_terms"><![CDATA[<a href="privacy">개인정보</a> 및 <a href="policy">정책</a>에 동의합니다]]></string>
+    <string name="error_terms">가입하려면 개인정보 처리방침과 정책에 동의해야 합니다.</string>
+
+    <string name="storia_titolo">우리의 이야기</string>
+    <string name="storia_testo">Spottio는 대기업의 제품이 아니라 단일 독립 개발자의 비전과 노력의 결과물입니다. 과도한 필터 없이 현실을 공유할 수 있는 공간을 만들기 위해 2023년에 프로젝트가 시작되었고 2024년에 출시되었습니다.\n\n한 명의 프로그래머가 관리하기 때문에 커뮤니티의 요구에 집중하는 진정한 앱으로 남을 수 있습니다.</string>
+
+    <string name="policy_titolo">가이드라인</string>
+    <string name="policy_testo">안전과 존중은 Spottio의 최우선 가치입니다:\n\n증오 금지: 괴롭힘이나 차별은 허용되지 않습니다.\n\n저작권 존중: 권리를 가진 콘텐츠만 공유하세요.\n\n안전: 불법적이거나 위험한 콘텐츠는 금지됩니다.\n\n적극적인 관리: 부적절한 콘텐츠는 즉시 신고할 수 있습니다.\n\n심각한 위반 시 계정이 정지될 수 있습니다.</string>
+
+    <string name="privacy_titolo">개인정보 처리방침</string>
+    <string name="privacy_testo">Spottio에서 개인정보는 당신의 권리입니다:\n\n최소한의 데이터: 로그인에 필요한 정보만 수집합니다.\n\n콘텐츠 소유권: 게시물의 소유권은 당신에게 있습니다.\n\n데이터 판매 금지: 우리는 귀하의 데이터를 판매하지 않습니다.\n\n보안: Google 클라우드 기술을 사용하여 데이터를 보호합니다.</string>
+
+    <string name="btn_following">팔로잉</string>
+    <string name="btn_follow_action">팔로우</string>
+    <string name="dialog_edit_bio_title">소개 수정</string>
+    <string name="btn_save">저장</string>
+    <string name="toast_saving">저장 중…</string>
+
+    <string name="logout_title">로그아웃</string>
+    <string name="logout_msg">계정에서 로그아웃하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+
+    <string name="admin_feature_coming_soon">곧 제공될 기능</string>
+
+    <string name="btn_manage_reports">신고 관리</string>
+    <string name="btn_suspend_user">계정 정지</string>
+    <string name="btn_delete_user">계정 영구 삭제</string>
+    <string name="admin_title">관리자 도구</string>
+
+    <string name="label_followers">팔로워</string>
+    <string name="label_following">팔로잉</string>
+    <string name="label_recent_posts">최근 게시물</string>
+</resources>

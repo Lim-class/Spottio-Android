@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="switch_to_register">¿No tienes una cuenta? Regístrate</string>
+    <string name="switch_to_login">¿Ya tienes una cuenta? Inicia sesión</string>
+
+    <string name="dialog_reset_title">Recuperación de contraseña</string>
+    <string name="dialog_reset_msg">Ingresa tu correo o nombre de usuario para recibir el enlace de recuperación.</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <string name="btn_storia">Historia</string>
+    <string name="btn_policy">Política</string>
+    <string name="btn_privacy">Privacidad</string>
+
+    <string name="cb_terms"><![CDATA[Acepto la <a href="privacy">Privacidad</a> y la <a href="policy">Política</a>]]></string>
+    <string name="error_terms">Debes aceptar la Privacidad y la Política para registrarte.</string>
+
+    <string name="storia_titolo">Nuestra Historia</string>
+    <string name="storia_testo">Spottio no es el fruto de una gran empresa, sino de la visión y el esfuerzo de un único desarrollador independiente. La idea detrás del proyecto nació en 2023, impulsada por el deseo de crear una forma más inmediata y genuina de conectar a las personas a través de lo que ven y viven todos los días.\n\nDespués de un año de diseño y desarrollo intenso, esa idea se hizo realidad oficialmente en 2024. Spottio fue construida desde cero, línea por línea, con el objetivo de ofrecer una plataforma donde \'spottear\' no sea solo una acción, sino una forma de contar la realidad sin filtros excesivos.\n\nSer un proyecto gestionado por un solo programador permite a Spottio seguir siendo una aplicación auténtica, cuidada al detalle y centrada exclusivamente en las necesidades de su comunidad. Gracias por apoyar el software independiente y por formar parte de este viaje que comenzó entre las paredes de una habitación y ahora se comparte con todos vosotros.</string>
+
+    <string name="policy_titolo">Directrices</string>
+    <string name="policy_testo">La seguridad y el respeto son los pilares fundamentales de Spottio. Si bien es una plataforma abierta a la creatividad, cada usuario se compromete a respetar las siguientes normas de comportamiento para mantener un ambiente sano:\n\nCero tolerancia al odio: No se permite ningún tipo de acoso, incitación a la violencia o discriminación. Spottio es un lugar de inclusión.\n\nRespeto por los derechos de autor: Comparte solo contenido (fotos o videos) del cual poseas los derechos o tengas permiso para difundir.\n\nProtección y seguridad: Está prohibida la publicación de contenido explícito, peligroso o ilegal. La seguridad de los menores es nuestra máxima prioridad.\n\nModeración activa: Gracias al sistema de reportes integrado, los usuarios pueden notificar inmediatamente contenido inapropiado. Cada reporte se verifica cuidadosamente para garantizar que la comunidad siga siendo un lugar seguro para todos.\n\nRecuerda: tu libertad termina donde empieza la de los demás. Las violaciones graves darán lugar a la eliminación del contenido o la suspensión de la cuenta.</string>
+
+    <string name="privacy_titolo">Política de Privacidad</string>
+    <string name="privacy_testo">En Spottio, tu privacidad no es una opción, sino un derecho. Al ser una aplicación desarrollada con un enfoque en la transparencia, así es como manejamos tu información:\n\nMinimización de datos: Solo recopilamos lo estrictamente necesario (nombre de usuario y correo electrónico) para permitirte iniciar sesión e interactuar. Tus credenciales se gestionan de forma segura a través de los protocolos de Firebase Authentication.\n\nPropiedad del contenido: Las publicaciones que realizas te pertenecen. En cualquier momento puedes decidir eliminarlas, y nuestra integración con Firestore asegura que se eliminen de nuestras bases de datos.\n\nNo vendemos datos: Spottio no vende ni venderá nunca tus datos personales a empresas de marketing o terceros. El proyecto se basa en la confianza del usuario, no en la monetización de su privacidad.\n\nSeguridad de la infraestructura: Utilizamos tecnologías en la nube de Google para garantizar que tus datos estén protegidos contra accesos no autorizados, con monitoreo constante de la integridad del sistema.\n\nAl usar Spottio, aceptas que tus datos sean procesados exclusivamente para proporcionarte los servicios sociales de la aplicación, en total cumplimiento con las mejores prácticas de ciberseguridad.</string>
+
+    <string name="btn_following">Siguiendo</string>
+    <string name="btn_follow_action">Seguir</string>
+    <string name="dialog_edit_bio_title">Editar biografía</string>
+    <string name="btn_save">Guardar</string>
+    <string name="toast_saving">Guardando…</string>
+
+    <string name="logout_title">Cerrar sesión</string>
+    <string name="logout_msg">¿Quieres cerrar la sesión de tu cuenta?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <string name="admin_feature_coming_soon">Función próximamente disponible</string>
+
+    <string name="btn_manage_reports">Gestionar reportes</string>
+    <string name="btn_suspend_user">Suspender cuenta</string>
+    <string name="btn_delete_user">Eliminar cuenta permanentemente</string>
+    <string name="admin_title">HERRAMIENTAS DE MODERACIÓN</string>
+
+    <string name="label_followers">Seguidores</string>
+    <string name="label_following">Seguidos</string>
+    <string name="label_recent_posts">PUBLICACIONES RECIENTES</string>
+</resources>

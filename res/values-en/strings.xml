@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="switch_to_register">Don\'t have an account? Register</string>
+    <string name="switch_to_login">Already have an account? Login</string>
+
+    <string name="dialog_reset_title">Password Recovery</string>
+    <string name="dialog_reset_msg">Enter your email or username to receive the reset link.</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="btn_storia">History</string>
+    <string name="btn_policy">Policy</string>
+    <string name="btn_privacy">Privacy</string>
+
+    <string name="cb_terms"><![CDATA[I accept <a href="privacy">Privacy</a> and <a href="policy">Policy</a>]]></string>
+    <string name="error_terms">You must accept the Privacy and Policy to register.</string>
+
+    <string name="storia_titolo">Our History</string>
+    <string name="storia_testo">Spottio is not the product of a large company, but the vision and dedication of a single independent developer. The idea behind the project was born in 2023, driven by the desire to create a more immediate and genuine way to connect people through what they see and experience every day.\n\nAfter a year of intense design and development, that idea was officially launched in 2024. Spottio was built from scratch, line by line, with the goal of offering a platform where \'spotting\' is not just an action, but a way to share reality without excessive filters.\n\nBeing a project managed by a single programmer allows Spottio to remain an authentic app, meticulously crafted and focused exclusively on the needs of its community. Thank you for supporting independent software and for being part of this journey that started within the walls of a room and is now shared with all of you.</string>
+
+    <string name="policy_titolo">Guidelines</string>
+    <string name="policy_testo">Safety and respect are the fundamental pillars of Spottio. While being an open platform for creativity, every user agrees to abide by the following rules of conduct to maintain a healthy environment:\n\nZero Tolerance for Hate: No form of bullying, incitement to violence, or discrimination is allowed. Spottio is a place of inclusion.\n\nCopyright Respect: Only share content (photos or videos) that you own or have permission to distribute.\n\nProtection and Safety: Posting explicit, dangerous, or illegal content is prohibited. Child safety is our absolute priority.\n\nActive Moderation: Thanks to the built-in reporting system, users can immediately notify inappropriate content. Every report is carefully reviewed to ensure the community remains a safe place for everyone.\n\nRemember: your freedom ends where others\' begins. Serious violations will lead to content removal or account suspension.</string>
+
+    <string name="privacy_titolo">Privacy Policy</string>
+    <string name="privacy_testo">At Spottio, your privacy is not an option, but a right. As an app developed with a focus on transparency, here is how we handle your information:\n\nData Minimization: We collect only what is strictly necessary (username and email) to allow you to log in and interact. Your credentials are securely managed through Firebase Authentication protocols.\n\nContent Ownership: The posts you publish belong to you. You can decide to delete them at any time, and our integration with Firestore ensures they are removed from our databases.\n\nNo Data Selling: Spottio does not and will never sell your personal data to marketing companies or third parties. The project relies on user trust, not on monetizing their privacy.\n\nInfrastructure Security: We use Google\'s cloud technologies to ensure your data is protected against unauthorized access, with constant system integrity monitoring.\n\nBy using Spottio, you agree that your data will be processed exclusively to provide you with the app\'s social services, in full compliance with the best cybersecurity practices.</string>
+
+    <string name="btn_following">Following</string>
+    <string name="btn_follow_action">Follow</string>
+    <string name="dialog_edit_bio_title">Edit Biography</string>
+    <string name="btn_save">Save</string>
+    <string name="toast_saving">Saving…</string>
+
+    <string name="logout_title">Logout</string>
+    <string name="logout_msg">Do you want to log out of your account?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="admin_feature_coming_soon">Feature coming soon</string>
+
+    <string name="btn_manage_reports">Manage Reports</string>
+    <string name="btn_suspend_user">Suspend Account</string>
+    <string name="btn_delete_user">Permanent Account Deletion</string>
+    <string name="admin_title">MODERATOR TOOLS</string>
+
+    <string name="label_followers">Followers</string>
+    <string name="label_following">Following</string>
+    <string name="label_recent_posts">RECENT POSTS</string>
+</resources>

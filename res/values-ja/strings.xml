@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">ユーザー名</string>
+    <string name="hint_password">パスワード</string>
+    <string name="hint_email">メールアドレス</string>
+    <string name="forgot_password">パスワードをお忘れですか？</string>
+    <string name="btn_login">ログイン</string>
+    <string name="btn_register">登録</string>
+    <string name="switch_to_register">アカウントをお持ちでない場合：登録</string>
+    <string name="switch_to_login">アカウントをお持ちの場合：ログイン</string>
+
+    <string name="dialog_reset_title">パスワードの復元</string>
+    <string name="dialog_reset_msg">リンクを受け取るにはメールアドレスかユーザー名を入力してください。</string>
+    <string name="btn_send">送信</string>
+    <string name="btn_cancel">キャンセル</string>
+
+    <string name="btn_storia">ヒストリー</string>
+    <string name="btn_policy">ポリシー</string>
+    <string name="btn_privacy">プライバシー</string>
+
+    <string name="cb_terms"><![CDATA[<a href="privacy">プライバシー</a>と<a href="policy">ポリシー</a>に同意します]]></string>
+    <string name="error_terms">登録するにはプライバシーとポリシーに同意する必要があります。</string>
+
+    <string name="storia_titolo">私たちの歴史</string>
+    <string name="storia_testo">Spottioは大手企業の製品ではなく、一人の独立した開発者のビジョンと情熱から生まれました。過度なフィルターを通さずに日常を共有できる場所を作るため、2023年にプロジェクトが始まり、2024年にリリースされました。\n\n一人のプログラマーによってゼロから作られているため、コミュニティのニーズに寄り添った本物のアプリであり続けることができます。</string>
+
+    <string name="policy_titolo">ガイドライン</string>
+    <string name="policy_testo">Spottioでは安全性と敬意を最優先しています：\n\nヘイトの禁止：いじめや差別は一切許容されません。\n\n著作権の尊重：権利を持つコンテンツのみを共有してください。\n\n安全性：過激な内容や違法なコンテンツの投稿は禁止されています。\n\nアクティブなモデレーション：不適切なコンテンツはすぐに報告できます。\n\n重大な違反はアカウントの停止につながります。</string>
+
+    <string name="privacy_titolo">プライバシーポリシー</string>
+    <string name="privacy_testo">Spottioでは、プライバシーは権利です：\n\n最小限のデータ：ログインに必要な情報のみを収集します。\n\nコンテンツの所有権：投稿はあなたのものです。\n\nデータの非販売：個人データを第三者に販売することはありません。\n\nセキュリティ：Googleクラウド技術を使用してデータを保護しています。</string>
+
+    <string name="btn_following">フォロー中</string>
+    <string name="btn_follow_action">フォロー</string>
+    <string name="dialog_edit_bio_title">自己紹介を編集</string>
+    <string name="btn_save">保存</string>
+    <string name="toast_saving">保存中…</string>
+
+    <string name="logout_title">ログアウト</string>
+    <string name="logout_msg">ログアウトしますか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+
+    <string name="admin_feature_coming_soon">近日公開予定の機能</string>
+
+    <string name="btn_manage_reports">通報の管理</string>
+    <string name="btn_suspend_user">アカウント停止</string>
+    <string name="btn_delete_user">アカウントの完全削除</string>
+    <string name="admin_title">モデレーターツール</string>
+
+    <string name="label_followers">フォロワー</string>
+    <string name="label_following">フォロー中</string>
+    <string name="label_recent_posts">最近の投稿</string>
+</resources>
