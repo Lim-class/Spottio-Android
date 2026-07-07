@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883871163268",
+    "project_id": "spottio-1419e",
+    "storage_bucket": "spottio-1419e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883871163268:android:8fb8331a1099fc6090b3d1",
+        "android_client_info": {
+          "package_name": "com.example.spottio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_wHQ_K_B0lUSLUQLNupdX8krn0iiHtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
