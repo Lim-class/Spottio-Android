@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">Имя пользователя</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_email">Email</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="btn_login">Войти</string>
+    <string name="btn_register">Регистрация</string>
+    <string name="switch_to_register">Нет аккаунта? Зарегистрируйтесь</string>
+    <string name="switch_to_login">Уже есть аккаунт? Войти</string>
+
+    <string name="dialog_reset_title">Восстановление пароля</string>
+    <string name="dialog_reset_msg">Введите свой email или имя пользователя для получения ссылки.</string>
+    <string name="btn_send">Отправить</string>
+    <string name="btn_cancel">Отмена</string>
+
+    <string name="btn_storia">История</string>
+    <string name="btn_policy">Правила</string>
+    <string name="btn_privacy">Конфиденциальность</string>
+
+    <string name="cb_terms"><![CDATA[Я принимаю <a href="privacy">Конфиденциальность</a> и <a href="policy">Правила</a>]]></string>
+    <string name="error_terms">Вы должны принять Конфиденциальность и Правила для регистрации.</string>
+
+    <string name="storia_titolo">Наша история</string>
+    <string name="storia_testo">Spottio — это не продукт крупной компании, а видение и труд одного независимого разработчика. Идея проекта родилась в 2023 году из желания создать более прямой и искренний способ связи между людьми через то, что они видят и переживают каждый день.\n\nПосле года интенсивного проектирования и разработки эта идея была официально реализована в 2024 году. Spottio была создана с нуля, строка за строкой, с целью предложить платформу, где \'споттинг\' — это не просто действие, а способ рассказать о реальности без лишних фильтров.\n\nТо, что проект управляется одним программистом, позволяет Spottio оставаться аутентичным приложением, продуманным до мелочей и ориентированным исключительно на потребности своего сообщества. Спасибо за поддержку независимого ПО и за то, что вы стали частью этого путешествия, начавшегося в стенах одной комнаты.</string>
+
+    <string name="policy_titolo">Руководство</string>
+    <string name="policy_testo">Безопасность и уважение — фундаментальные основы Spottio. Хотя это открытая платформа для творчества, каждый пользователь обязуется соблюдать следующие правила:\n\nНулевая терпимость к ненависти: Любая форма травли, призывов к насилию или дискриминации запрещена.\n\nУважение авторских прав: Делитесь только тем контентом, на который у вас есть права.\n\nБезопасность: Запрещена публикация откровенного, опасного или незаконного контента. Безопасность детей — наш абсолютный приоритет.\n\nАктивная модерация: С помощью встроенной системы жалоб пользователи могут сообщать о нарушениях. Каждое сообщение тщательно проверяется.\n\nПомните: ваша свобода заканчивается там, где начинается свобода других. Серьезные нарушения приведут к удалению контента или блокировке аккаунта.</string>
+
+    <string name="privacy_titolo">Политика конфиденциальности</string>
+    <string name="privacy_testo">В Spottio ваша конфиденциальность — это не опция, а право. Мы собираем только самое необходимое (имя пользователя и email). Ваши данные безопасно управляются через Firebase Authentication.\n\nВладение контентом: Ваши посты принадлежат вам. Вы можете удалить их в любой момент.\n\nНикакой продажи данных: Мы никогда не будем продавать ваши данные маркетинговым компаниям. Проект опирается на доверие пользователей.\n\nБезопасность инфраструктуры: Мы используем облачные технологии Google для защиты ваших данных.\n\nИспользуя Spottio, вы соглашаетесь с тем, что ваши данные будут обрабатываться исключительно для предоставления вам социальных услуг приложения.</string>
+
+    <string name="btn_following">Подписки</string>
+    <string name="btn_follow_action">Подписаться</string>
+    <string name="dialog_edit_bio_title">Редактировать биографию</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="toast_saving">Сохранение…</string>
+
+    <string name="logout_title">Выйти</string>
+    <string name="logout_msg">Вы хотите выйти из аккаунта?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="admin_feature_coming_soon">Функция скоро появится</string>
+
+    <string name="btn_manage_reports">Управление жалобами</string>
+    <string name="btn_suspend_user">Заблокировать аккаунт</string>
+    <string name="btn_delete_user">Удалить аккаунт навсегда</string>
+    <string name="admin_title">ИНСТРУМЕНТЫ МОДЕРАТОРА</string>
+
+    <string name="label_followers">Подписчики</string>
+    <string name="label_following">Подписки</string>
+    <string name="label_recent_posts">НЕДАВНИЕ ПОСТЫ</string>
+</resources>

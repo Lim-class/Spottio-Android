@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">اسم المستخدم</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_register">إنشاء حساب</string>
+    <string name="switch_to_register">ليس لديك حساب؟ إنشاء حساب</string>
+    <string name="switch_to_login">لديك حساب بالفعل؟ تسجيل الدخول</string>
+
+    <string name="dialog_reset_title">استعادة كلمة المرور</string>
+    <string name="dialog_reset_msg">أدخل بريدك الإلكتروني أو اسم المستخدم لتلقي رابط إعادة التعيين.</string>
+    <string name="btn_send">إرسال</string>
+    <string name="btn_cancel">إلغاء</string>
+
+    <string name="btn_storia">القصة</string>
+    <string name="btn_policy">السياسة</string>
+    <string name="btn_privacy">الخصوصية</string>
+
+    <string name="cb_terms"><![CDATA[أوافق على <a href="privacy">الخصوصية</a> و <a href="policy">السياسة</a>]]></string>
+    <string name="error_terms">يجب عليك قبول الخصوصية والسياسة للتسجيل.</string>
+
+    <string name="storia_titolo">قصتنا</string>
+    <string name="storia_testo">تطبيق Spottio ليس نتاج شركة كبيرة، بل هو رؤية وجهد مطور مستقل واحد. ولدت الفكرة وراء المشروع في عام 2023، مدفوعة بالرغبة في إيجاد طريقة أكثر فورية وصدقًا لربط الأشخاص من خلال ما يرونه ويختبرونه كل يوم.\n\nبعد عام من التصميم والتطوير المكثف، تم إطلاق هذه الفكرة رسميًا في عام 2024. تم بناء Spottio من الصفر، سطرًا بسطر، بهدف تقديم منصة لا يكون فيها التصوير مجرد فعل، بل طريقة لسرد الواقع بدون فلاتر مفرطة.\n\nكونه مشروعًا يديره مبرمج واحد يسمح لـ Spottio بالبقاء تطبيقًا أصيلاً، مُعتنى به في أدق التفاصيل ومركّزًا حصريًا على احتياجات مجتمعه. شكرًا لدعمكم للبرامج المستقلة ولكونكم جزءًا من هذه الرحلة.</string>
+
+    <string name="policy_titolo">الإرشادات</string>
+    <string name="policy_testo">السلامة والاحترام هما الركيزتان الأساسيتان لـ Spottio. في حين أنها منصة مفتوحة للإبداع، يوافق كل مستخدم على الامتثال للقواعد التالية:\n\nعدم التسامح مطلقًا مع الكراهية: لا يُسمح بأي شكل من أشكال التنمر أو التحريض على العنف أو التمييز.\n\nاحترام حقوق النشر: شارك فقط المحتوى الذي تملك حقوقه.\n\nالحماية والسلامة: يُحظر نشر محتوى صريح أو خطير أو غير قانوني.\n\nالإشراف النشط: يمكن للمستخدمين الإبلاغ عن المحتوى غير اللائق على الفور.\n\nتذكر: حريتك تنتهي عندما تبدأ حرية الآخرين. ستؤدي الانتهاكات الخطيرة إلى إزالة المحتوى أو تعليق الحساب.</string>
+
+    <string name="privacy_titolo">سياسة الخصوصية</string>
+    <string name="privacy_testo">في Spottio، خصوصيتك هي حق. نحن نجمع فقط ما هو ضروري للغاية (اسم المستخدم والبريد الإلكتروني). تُدار بيانات الاعتماد الخاصة بك بأمان عبر Firebase.\n\nملكية المحتوى: المنشورات ملك لك، ويمكنك حذفها في أي وقت.\n\nلا نبيع البيانات: لن نبيع بياناتك الشخصية أبدًا.\n\nأمان البنية التحتية: نستخدم تقنيات Google السحابية لحماية بياناتك.\n\nباستخدام Spottio، فإنك توافق على معالجة بياناتك حصريًا لتزويدك بالخدمات الاجتماعية للتطبيق.</string>
+
+    <string name="btn_following">أتابعه</string>
+    <string name="btn_follow_action">متابعة</string>
+    <string name="dialog_edit_bio_title">تعديل السيرة الذاتية</string>
+    <string name="btn_save">حفظ</string>
+    <string name="toast_saving">جاري الحفظ…</string>
+
+    <string name="logout_title">تسجيل الخروج</string>
+    <string name="logout_msg">هل تريد تسجيل الخروج من حسابك؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="admin_feature_coming_soon">الميزة قادمة قريباً</string>
+
+    <string name="btn_manage_reports">إدارة البلاغات</string>
+    <string name="btn_suspend_user">تعليق الحساب</string>
+    <string name="btn_delete_user">حذف الحساب نهائياً</string>
+    <string name="admin_title">أدوات المشرف</string>
+
+    <string name="label_followers">المتابعون</string>
+    <string name="label_following">يتابع</string>
+    <string name="label_recent_posts">المنشورات الأخيرة</string>
+</resources>

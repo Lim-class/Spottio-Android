@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_email">电子邮件</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="switch_to_register">没有账号？点击注册</string>
+    <string name="switch_to_login">已有账号？点击登录</string>
+
+    <string name="dialog_reset_title">恢复密码</string>
+    <string name="dialog_reset_msg">请输入您的电子邮件或用户名以获取重置链接。</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_cancel">取消</string>
+
+    <string name="btn_storia">历史</string>
+    <string name="btn_policy">政策</string>
+    <string name="btn_privacy">隐私</string>
+
+    <string name="cb_terms"><![CDATA[我同意<a href="privacy">隐私政策</a>和<a href="policy">用户协议</a>]]></string>
+    <string name="error_terms">您必须同意隐私政策和用户协议才能注册。</string>
+
+    <string name="storia_titolo">我们的故事</string>
+    <string name="storia_testo">Spottio 不是大公司的产品，而是一名独立开发者愿景和努力的结晶。该项目始于2023年，初衷是创建一个没有过度滤镜、真实分享日常的平台，并于2024年正式上线。\n\n从零开始，逐行代码构建。作为由单人维护的项目，Spottio 能够保持纯粹，专注于社区用户的真正需求。</string>
+
+    <string name="policy_titolo">社区准则</string>
+    <string name="policy_testo">安全与尊重是 Spottio 的核心基石：\n\n零容忍仇恨：严禁任何形式的霸凌、歧视或煽动暴力。\n\n尊重版权：仅分享您拥有版权的内容。\n\n保护与安全：严禁发布色情、危险或违法的违规内容。\n\n积极审核：用户可随时举报违规内容。\n\n请记住：严重违规将导致内容被删或账号封禁。</string>
+
+    <string name="privacy_titolo">隐私政策</string>
+    <string name="privacy_testo">在 Spottio，隐私是您的权利：\n\n最小化数据采集：我们仅收集用户名和邮箱。\n\n内容所有权：您发布的内容归您所有，随时可以删除。\n\n绝不出售数据：我们绝不会将您的数据出售给第三方。\n\n基础设施安全：使用 Google 云技术保障数据安全。</string>
+
+    <string name="btn_following">已关注</string>
+    <string name="btn_follow_action">关注</string>
+    <string name="dialog_edit_bio_title">编辑简介</string>
+    <string name="btn_save">保存</string>
+    <string name="toast_saving">保存中…</string>
+
+    <string name="logout_title">登出</string>
+    <string name="logout_msg">您确定要退出登录吗？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="admin_feature_coming_soon">功能即将推出</string>
+
+    <string name="btn_manage_reports">管理举报</string>
+    <string name="btn_suspend_user">封禁账号</string>
+    <string name="btn_delete_user">永久删除账号</string>
+    <string name="admin_title">管理员工具</string>
+
+    <string name="label_followers">粉丝</string>
+    <string name="label_following">关注</string>
+    <string name="label_recent_posts">最新动态</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+    <string name="hint_username">Nome utente</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_login">Accedi</string>
+    <string name="btn_register">Crea Account</string>
+    <string name="forgot_password">Password dimenticata?</string>
+    <string name="switch_to_register">Non hai un account? Registrati</string>
+    <string name="switch_to_login">Hai già un account? Accedi</string>
+    <string name="btn_storia">Storia</string>
+    <string name="btn_policy">Policy</string>
+    <string name="btn_privacy">Privacy</string>
+    <string name="cb_terms"><![CDATA[Accetto <a href="privacy">Privacy</a> e <a href="policy">Policy</a>]]></string>
+    <string name="error_terms">Devi accettare Privacy e Policy per registrarti.</string>
+    <string name="dialog_reset_title">Recupera Password</string>
+    <string name="dialog_reset_msg">Inserisci il tuo Username o la tua Email per ricevere il link di reset.</string>
+    <string name="btn_send">Invia</string>
+    <string name="btn_cancel">Annulla</string>
+
+    <string name="storia_titolo">La nostra Storia</string>
+    <string name="storia_testo">Spottio non è il frutto di una grande azienda, ma della visione e dell\'impegno di un singolo sviluppatore indipendente. L\'idea alla base del progetto è nata nel 2023, mossa dal desiderio di creare un modo più immediato e genuino per connettere le persone attraverso ciò che vedono e vivono ogni giorno.\n\nDopo un anno di progettazione e sviluppo intenso, quell\'idea è stata messa ufficialmente in atto nel 2024. Spottio è stata costruita da zero, riga dopo riga, con l\'obiettivo di offrire una piattaforma dove \'spottare\' non sia solo un\'azione, ma un modo per raccontare la realtà senza filtri eccessivi.\n\nEssere un progetto gestito da un unico programmatore permette a Spottio di restare un\'app autentica, curata nei minimi dettagli e focalizzata esclusivamente sulle esigenze della propria community. Grazie per sostenere il software indipendente e per far parte di questo viaggio iniziato tra le mura di una stanza e ora condiviso con tutti voi.</string>
+
+    <string name="policy_titolo">Linee Guida</string>
+    <string name="policy_testo">La sicurezza e il rispetto sono i pilastri fondamentali su cui poggia Spottio. Pur essendo una piattaforma aperta alla creatività, ogni utente si impegna a rispettare le seguenti norme di comportamento per mantenere l\'ambiente sano:\n\nZero Tolleranza per l\'Odio: Non è ammesso alcun tipo di bullismo, incitamento alla violenza o discriminazione. Spottio è un luogo di inclusione.\n\nRispetto del Copyright: Condividi solo contenuti (foto o video) di cui detieni i diritti o che hai il permesso di diffondere.\n\nProtezione e Sicurezza: È vietata la pubblicazione di contenuti espliciti, pericolosi o illegali. La sicurezza dei minori è la nostra priorità assoluta.\n\nModerazione Attiva: Grazie al sistema di segnalazione integrato, gli utenti possono notificare immediatamente contenuti inappropriati. Ogni segnalazione viene verificata con la massima attenzione per garantire che la community rimanga un posto sicuro per tutti.\n\nRicorda: la tua libertà finisce dove inizia quella degli altri. Violazioni gravi porteranno alla rimozione dei contenuti o alla sospensione dell\'account.</string>
+
+    <string name="privacy_titolo">Privacy Policy</string>
+    <string name="privacy_testo">In Spottio, la tua privacy non è un\'opzione, ma un diritto. Essendo un\'app sviluppata con un focus sulla trasparenza, ecco come gestiamo le tue informazioni:\n\nRaccolta Dati del Dispositivo: Per garantire la sicurezza dell\'applicazione, l\'integrità del sistema e la protezione da utilizzi fraudolenti, raccogliamo dati tecnici non sensibili relativi al dispositivo utilizzato, quali marca, modello e versione corrente del sistema operativo.\n\nGeolocalizzazione Periodica: Previo tuo consenso esplicito tramite i permessi di sistema, l\'applicazione raccoglie i dati relativi alla tua posizione geografica (latitudine e longitudine). Questo trattamento avviene unicamente durante l\'uso attivo dell\'app e con un intervallo programmato di 4 ore, al fine di personalizzare i servizi social offerti e ottimizzare le quote operative dell\'infrastruttura.\n\nProprietà dei Contenuti: I post che pubblichi appartengono a te. In qualsiasi momento puoi decidere di eliminarli, e la nostra integrazione con Firestore assicura che vengano rimossi dai nostri database.\n\nNessuna Vendita di Dati: Spottio non vende e non venderà mai i tuoi dati personali o tecnici a società di marketing o terze parti. Il progetto si sostiene sulla fiducia degli utenti, non sulla monetizzazione della loro privacy.\n\nSicurezza dell\'Infrastruttura: Utilizziamo le tecnologie cloud di Google per garantire che i tuoi dati siano protetti da accessi non autorizzati, con monitoraggio costante dell\'integrità del sistema.\n\nUtilizzando Spottio, accetti che i tuoi dati tecnici e di posizione vengano trattati esclusivamente per fornirti i servizi social dell\'app e garantirne la sicurezza, in totale conformità con le migliori pratiche di sicurezza informatica.</string>
+
+    <string name="btn_following">Seguiti</string>
+    <string name="btn_follow_action">Segui</string>
+    <string name="dialog_edit_bio_title">Modifica biografia</string>
+    <string name="btn_save">Salva</string>
+    <string name="toast_saving">Salvataggio…</string>
+
+    <string name="logout_title">Esci</string>
+    <string name="logout_msg">Vuoi disconnetterti?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+
+    <string name="admin_feature_coming_soon">Funzionalità in arrivo</string>
+
+    <string name="btn_manage_reports">Gestisci segnalazioni</string>
+    <string name="btn_suspend_user">Sospendi account</string>
+    <string name="btn_delete_user">Elimina account permanentemente</string>
+    <string name="admin_title">STRUMENTI MODERATORE</string>
+
+    <string name="label_followers">Follower</string>
+    <string name="label_following">Seguiti</string>
+    <string name="label_recent_posts">POST RECENTI</string>
+</resources>

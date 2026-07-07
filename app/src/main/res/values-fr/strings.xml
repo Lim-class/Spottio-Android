@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spottio</string>
+
+    <string name="hint_username">Nom d\'utilisateur</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_email">E-mail</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="btn_register">S\'inscrire</string>
+    <string name="switch_to_register">Pas de compte ? S\'inscrire</string>
+    <string name="switch_to_login">Déjà un compte ? Se connecter</string>
+
+    <string name="dialog_reset_title">Récupération de mot de passe</string>
+    <string name="dialog_reset_msg">Entrez votre e-mail ou nom d\'utilisateur pour recevoir le lien de réinitialisation.</string>
+    <string name="btn_send">Envoyer</string>
+    <string name="btn_cancel">Annuler</string>
+
+    <string name="btn_storia">Histoire</string>
+    <string name="btn_policy">Politique</string>
+    <string name="btn_privacy">Confidentialité</string>
+
+    <string name="cb_terms"><![CDATA[J\'accepte la <a href="privacy">Confidentialité</a> et la <a href="policy">Politique</a>]]></string>
+    <string name="error_terms">Vous devez accepter la Confidentialité et la Politique pour vous inscrire.</string>
+
+    <string name="storia_titolo">Notre Histoire</string>
+    <string name="storia_testo">Spottio n\'est pas le fruit d\'une grande entreprise, mais de la vision et de l\'engagement d\'un seul développeur indépendant. L\'idée derrière le projet est née en 2023, poussée par le désir de créer un moyen plus immédiat et authentique de connecter les gens à travers ce qu\'ils voient et vivent chaque jour.\n\nAprès un an de conception et de développement intense, cette idée a été officiellement concrétisée en 2024. Spottio a été construite à partir de zéro, ligne par ligne, dans le but d\'offrir une plateforme où \'spotter\' n\'est pas seulement une action, mais une façon de raconter la réalité sans filtres excessifs.\n\nÊtre un projet géré par un seul programmeur permet à Spottio de rester une application authentique, soignée dans les moindres détails et axée exclusivement sur les besoins de sa communauté. Merci de soutenir les logiciels indépendants et de faire partie de ce voyage qui a commencé entre les murs d\'une chambre et qui est maintenant partagé avec vous tous.</string>
+
+    <string name="policy_titolo">Directives</string>
+    <string name="policy_testo">La sécurité et le respect sont les piliers fondamentaux de Spottio. Bien qu\'il s\'agisse d\'une plateforme ouverte à la créativité, chaque utilisateur s\'engage à respecter les règles de comportement suivantes pour maintenir un environnement sain :\n\nTolérance zéro pour la haine : Aucune forme d\'intimidation, d\'incitation à la violence ou de discrimination n\'est autorisée. Spottio est un lieu d\'inclusion.\n\nRespect des droits d\'auteur : Ne partagez que du contenu (photos ou vidéos) dont vous possédez les droits ou que vous avez l\'autorisation de diffuser.\n\nProtection et sécurité : La publication de contenu explicite, dangereux ou illégal est interdite. La sécurité des enfants est notre priorité absolue.\n\nModération active : Grâce au système de signalement intégré, les utilisateurs peuvent immédiatement notifier un contenu inapproprié. Chaque signalement est examiné avec le plus grand soin pour s\'assurer que la communauté reste un endroit sûr pour tous.\n\nN\'oubliez pas : votre liberté s\'arrête là où commence celle des autres. Les violations graves entraîneront la suppression du contenu ou la suspension du compte.</string>
+
+    <string name="privacy_titolo">Politique de Confidentialité</string>
+    <string name="privacy_testo">Chez Spottio, votre vie privée n\'est pas une option, mais un droit. Étant une application développée en mettant l\'accent sur la transparence, voici comment nous gérons vos informations :\n\nMinimisation des données : Nous ne collectons que ce qui est strictement nécessaire (nom d\'utilisateur et e-mail) pour vous permettre de vous connecter et d\'interagir. Vos identifiants sont gérés en toute sécurité via les protocoles Firebase Authentication.\n\nPropriété du contenu : Les publications que vous faites vous appartiennent. À tout moment, vous pouvez décider de les supprimer, et notre intégration avec Firestore garantit qu\'elles sont supprimées de nos bases de données.\n\nAucune vente de données : Spottio ne vend et ne vendra jamais vos données personnelles à des sociétés de marketing ou à des tiers. Le projet repose sur la confiance des utilisateurs, et non sur la monétisation de leur vie privée.\n\nSécurité de l\'infrastructure : Nous utilisons les technologies cloud de Google pour garantir que vos données sont protégées contre tout accès non autorisé, avec une surveillance constante de l\'intégrité du système.\n\nEn utilisant Spottio, vous acceptez que vos données soient traitées exclusivement pour vous fournir les services sociaux de l\'application, en totale conformité avec les meilleures pratiques de cybersécurité.</string>
+
+    <string name="btn_following">Abonné(e)</string>
+    <string name="btn_follow_action">Suivre</string>
+    <string name="dialog_edit_bio_title">Modifier la biographie</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="toast_saving">Enregistrement…</string>
+
+    <string name="logout_title">Déconnexion</string>
+    <string name="logout_msg">Voulez-vous vous déconnecter de votre compte ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <string name="admin_feature_coming_soon">Fonctionnalité à venir</string>
+
+    <string name="btn_manage_reports">Gérer les signalements</string>
+    <string name="btn_suspend_user">Suspendre le compte</string>
+    <string name="btn_delete_user">Supprimer le compte définitivement</string>
+    <string name="admin_title">OUTILS DE MODÉRATION</string>
+
+    <string name="label_followers">Abonnés</string>
+    <string name="label_following">Abonnements</string>
+    <string name="label_recent_posts">PUBLICATIONS RÉCENTES</string>
+</resources>
