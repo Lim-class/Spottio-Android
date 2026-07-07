@@ -1,0 +1,65 @@
+[versions]
+# Plugin
+agp = "8.13.2"
+kotlin = "2.4.0"
+googleServices = "4.4.2"
+
+# AndroidX & Core
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+activityKtx = "1.9.3"
+constraintlayout = "2.2.1"
+material = "1.12.0" # Riportato alla versione stabile per Android 34
+
+# Navigation Component
+navigation = "2.7.7" # Versione stabile e sicura
+
+# Firebase & Google Services
+firebaseBom = "33.1.2"
+playServicesLocation = "21.3.0"
+
+# UI & Utility
+glide = "4.16.0"
+circleimageview = "3.1.0"
+zoomy = "1.0.0"
+
+# Testing
+junit = "4.13.2"
+extJunit = "1.2.1"
+espressoCore = "3.6.1"
+
+[libraries]
+# AndroidX & Core
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Navigation
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+
+# Firebase
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" }
+
+# Google Play Services
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+
+# UI & Utility
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+circleimageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview" }
+zoomy = { group = "io.github.imablanco", name = "zoomy", version.ref = "zoomy" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "extJunit" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
