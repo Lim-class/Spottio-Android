@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo_spottio"
+            android:contentDescription="Logo Spottio" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:visibility="visible"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxStrokeColor="#66CCB3"
+            app:hintTextColor="#002D57"
+            app:startIconDrawable="@android:drawable/ic_dialog_email"
+            app:startIconTint="#66CCB3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutUsername"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"
+            android:hint="@string/hint_username"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxStrokeColor="#66CCB3"
+            app:hintTextColor="#002D57"
+            app:startIconDrawable="@android:drawable/ic_menu_edit"
+            app:startIconTint="#66CCB3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/hint_password"
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxStrokeColor="#66CCB3"
+            app:hintTextColor="#002D57"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
+            app:startIconTint="#66CCB3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textColor="#002D57"
+            android:gravity="end"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            app:cornerRadius="28dp"
+            android:backgroundTint="#002D57"
+            android:elevation="4dp"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cbTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#002D57"
+            android:buttonTint="#66CCB3"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/btn_register"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            app:cornerRadius="28dp"
+            app:strokeColor="#66CCB3"
+            android:textColor="#66CCB3"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_to_register"
+            android:textColor="#66CCB3"
+            android:layout_marginTop="24dp"
+            android:padding="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <include
+            layout="@layout/layout_language_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:alpha="0.5">
+
+            <Button android:id="@+id/btnStoria" style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/btn_storia" android:textSize="10sp" android:textColor="#002D57"/>
+
+            <View android:layout_width="1dp" android:layout_height="12dp" android:background="#DDD" android:layout_marginHorizontal="8dp"/>
+
+            <Button android:id="@+id/btnPolicy" style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/btn_policy" android:textSize="10sp" android:textColor="#002D57"/>
+
+            <View android:layout_width="1dp" android:layout_height="12dp" android:background="#DDD" android:layout_marginHorizontal="8dp"/>
+
+            <Button android:id="@+id/btnPrivacy" style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/btn_privacy" android:textSize="10sp" android:textColor="#002D57"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
